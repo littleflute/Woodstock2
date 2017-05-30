@@ -1,0 +1,12 @@
+var f = [];				
+f[0]	= "v0.0.7";			
+f[1]	= "01 Sweet Sir Galahad.mp3";		
+f[2]	= "02 Guinnevere.mp3";		
+f[3]	= "03 4 + 20.mp3";		
+f[4]	= "04 Marrakesh Express.mp3";		
+f[5]	= "05 My Beautiful People.mp3";		
+f[6]	= "06 Birthday of the Sun.mp3";		
+f[7]	= "07 Blood of the Sun.mp3";		
+f[8]	= "08 Theme for an Imaginary Woman.mp3";		
+f[9]	= "09 Woodstock Boogie.mp3";		
+f[10]	= "10 Let the Sunshine In.mp3";		
