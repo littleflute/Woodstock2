@@ -1,0 +1,11 @@
+Title All: Summer of 1969 : 40 songs of peace & love that were played at Woodstock.
+Local Call Number: Oversize M 781.66
+ISBN: 9781423480754
+Publication Information: [Milwaukee, WI : Hal Leonard, [2009?]
+Physical Description: 1 score (203 p.) ; 31 cm.
+Contents: Acid queen (The Who) -- Ball and chain (Janis Joplin) -- Beautiful people (Melanie) -- Born under a bad sign (Paul Butterfield Blues Band) -- Drug store truck drivin' man (Joan Baez) -- For Yasgur's farm (Mountain) -- Good morning little schoolgirl (Ten Years After) -- Helplessly hoping (Johnny Winter) -- Hey Joe (Jimi Hendrix) -- High flying bird (Richie Havens) -- How have you been (John B. Sebastian) -- I can't explain (The Who) -- I had a dream (John B. Sebastian) -- I shall be released (Joe Cocker) -- I'm free (The Who) -- If I were a carpenter (Tim Hardin) -- Joe Hill (Joan Baez) -- Kozmic blues (Janis Joplin) -- Let's go get stoned (Joe Cocker) -- Let's work together (Canned Heat) -- More and more (Blood, Sweat & Tears) -- My generation (The Who) -- Night time is the right time (Creedence Clearwater Revival) -- Persuasion (Santana) -- Piece of my heart (Janis Joplin) -- Proud Mary (Creedence Clearwater Revival) -- Somebody to love (Jefferson Airplane) -- Soul sacrifice (Santana) -- Spinning wheel (Johnny Winter) -- Strawberry fields forever (Richie Havens) -- Suite: Judy blue eyes (Crosby, Stills, Nash and Young) -- Susie-Q (Creedence Clearwater Revival) -- Theme for an imaginary western (Mountain) -- Turn on your love light (Grateful Dead) -- We shall overcome (Joan Baez) -- The weight (The Band) -- White rabbit (Jefferson Airplane) -- With a little help from my friends (Joe Cocker) -- Wooden ships (Crosby, Stills, Nash and Young) -- Younger generation (John B. Sebastian).
+Conference Subject: Woodstock Festival.
+Subject Term:
+Rock music -- 1961-1970.
+Popular music -- 1961-1970.
+Holds: 0
