@@ -2,17 +2,22 @@
 <!DOCTYPE html>
 <!-- created by blp.bat -->
 <html>
+<head>
+<script src = "bls.js"></script>	
+</head>
 <body>
 
 <div id="blVer">
 <a href = "https://littleflute.github.io/blog/html/tools/blp/" target = "_blank">home</a>-
 <a href = "https://github.com/littleflute/blog/new/master/html/tools/blp" target = "_blank">new</a>-
-<a href = "https://github.com/littleflute/blog/issues/229" target="_blank">log</a> - v0.7.4
-:u: blMp4Player.
+<a href = "https://github.com/littleflute/blog/issues/229" target="_blank">log</a> - v0.8.6
+:+: bls.js(https://littleflute.github.io/blog/js/bls.js).
+<span id = "blDbg"></span>
 </div>
 <textarea id = "blMp4Player" style = "display:none;">
 this.blMp4Player = function (){
- this.blMp4Player.blV = "v0.5.8";
+ this.blMp4Player.blV = "v0.5.9";
+ this.blMp4Player.v059 = "+: if(f.length>1) document.blLoadOK = true;";
  this.blMp4Player.v058 = "m: d.id = i; auto play next song";
  this.blMp4Player.v057 = "+: v.playObj";
  this.blMp4Player.v056 = "+: onclick : to play";
@@ -61,7 +66,8 @@ this.blMp4Player = function (){
 	  }
           d.innerHTML = f[i];
           boss.appendChild(d);
-       }				 
+       }
+       if(f.length>1) document.blLoadOK = true;				 
    }	
     this.blMp4Player.myTimeFun = function(){	 		
        var p = document.getElementById("idBlMp4Player"); 		
@@ -314,6 +320,7 @@ function blCreateUI(){
 	var t = document.getElementsByTagName("textarea");
 	for (var i = 0; i < t.length; i++){
 		var b = document.createElement("button");
+		b.id = t[i].id + "Btn";
 		if("run"==t[i].id) {
 			b.onclick = run;
 			b.style.backgroundColor = "green";
@@ -322,8 +329,32 @@ function blCreateUI(){
 		b.innerHTML = t[i].id;
 		document.body.appendChild(b);
 	}
+	document.blLoadOK = false;
+	function gBlTimerFun(){
+		var s1 = document.getElementById("s1");
+		var blScriptBtn = document.getElementById("blScriptBtn");
+		var runBtn = document.getElementById("runBtn");
+		var fTest = "blNull";
+		if(!s1){
+			if(blScriptBtn) blScriptBtn.click();
+			if(runBtn) runBtn.click();
+		}
+		else if(!document.blLoadOK){
+			fTest = f[0];//"blOK";
+			var blMp4PlayerBtn = document.getElementById("blMp4PlayerBtn");
+		
+			if(blMp4PlayerBtn) blMp4PlayerBtn.click();
+			if(runBtn) runBtn.click();
+			var song1Btn = document.getElementById("1");
+          		if(song1Btn) song1Btn.click();	
+		}
+			var blDbg = document.getElementById("blDbg");
+			blDbg.innerHTML = new Date() + s1 + ":" + fTest;
+	}
+        setInterval(gBlTimerFun, 1000);
 }
 blCreateUI();
+
 
 function blBtnClick() {
 	var id = this.innerHTML;
